@@ -6,7 +6,6 @@ using Match
 LinearAlgebra.BLAS.set_num_threads(6)
 gr()
 include("algorithms.jl")
-# output_path = "/home/jeffrey/github/freund-open-problem/experiments/figures/"
 include("hadamard_losses.jl")
 output_path = "figures/"
 
